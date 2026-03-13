@@ -34,7 +34,7 @@ public class TimeMapTests
 
         timeMap.Set("foo", "bar", 5);
 
-        Assert.Equal("", timeMap.Get("foo", 1));
+        Assert.Equal(null!, timeMap.Get("foo", 1));
     }
 
     [Fact]
@@ -70,7 +70,7 @@ public class TimeMapTests
     {
         var timeMap = new TimeMap<string, string>();
 
-        Assert.Equal("", timeMap.Get("unknown", 10));
+        Assert.Equal(null!, timeMap.Get("unknown", 10));
     }
 
     [Fact]
@@ -80,7 +80,7 @@ public class TimeMapTests
 
         timeMap.Set("k", "v1", 10);
 
-        Assert.Equal("", timeMap.Get("k", 9));
+        Assert.Equal(null!, timeMap.Get("k", 9));
         Assert.Equal("v1", timeMap.Get("k", 10));
         Assert.Equal("v1", timeMap.Get("k", 11));
     }
