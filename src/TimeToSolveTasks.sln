@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunner", "TaskRunner\TaskRunner.csproj", "{969BF6FA-F0E8-4C32-B65A-AFA72FD1D09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{DD0CE82D-CA46-4836-8FD0-949ED5EC7D01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969BF6FA-F0E8-4C32-B65A-AFA72FD1D09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969BF6FA-F0E8-4C32-B65A-AFA72FD1D09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969BF6FA-F0E8-4C32-B65A-AFA72FD1D09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969BF6FA-F0E8-4C32-B65A-AFA72FD1D09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0CE82D-CA46-4836-8FD0-949ED5EC7D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0CE82D-CA46-4836-8FD0-949ED5EC7D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0CE82D-CA46-4836-8FD0-949ED5EC7D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0CE82D-CA46-4836-8FD0-949ED5EC7D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
