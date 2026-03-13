@@ -4,39 +4,42 @@ public class TimeMap<TKey, TValue> where TKey : notnull
 {
     private readonly Dictionary<TKey, List<(TValue Value, int Timestamp)>> _cache = new();
     
+    /// <summary>
+    /// Stores the value value for the given key at the specified timestamp. It is guaranteed that the timestamp for the same key is strictly increasing.
+    /// </summary>
     public void Set(TKey key, TValue value, int timestamp)
     {
-        if (!_cache.TryGetValue(key, out var binaryTree))
+        if (!_cache.TryGetValue(key, out var sortedRecords))
         {
-            binaryTree = new List<(TValue Value, int Timestamp)>();
-            _cache.Add(key, binaryTree);
+            sortedRecords = new List<(TValue Value, int Timestamp)>();
+            _cache.Add(key, sortedRecords);
         }
         
-        binaryTree.Add((value, timestamp));
+        sortedRecords.Add((value, timestamp));
     }
 
+    /// <summary>
+    /// Returns the value associated with key whose timestamp is less than or equal to the given timestamp and is the largest possible.
+    /// </summary>
     public TValue? Get(TKey key, int timestamp)
     {
-        if (!_cache.TryGetValue(key, out var binaryTree))
+        if (!_cache.TryGetValue(key, out var sortedRecords))
             return default;
 
-        return BinarySearchUpperBound(binaryTree, timestamp);
+        return BinarySearchFloor(sortedRecords, timestamp);
     }
     
-    private TValue? BinarySearchUpperBound(List<(TValue Value, int Timestamp)> binaryTree, int timestamp)
+    private TValue? BinarySearchFloor(List<(TValue Value, int Timestamp)> sortedRecords, int timestamp)
     {
         TValue? result = default;
         
-        if (binaryTree.Count == 0) return result!;
-        if(binaryTree.Count == 1) return binaryTree[0].Timestamp <= timestamp ? binaryTree[0].Value : result;
-        
-        int left = 0, right = binaryTree.Count - 1;
+        int left = 0, right = sortedRecords.Count - 1;
         while (left <= right)
         {
             var mid = left + (right - left) / 2;
-            if (binaryTree[mid].Timestamp <= timestamp)
+            if (sortedRecords[mid].Timestamp <= timestamp)
             {
-                result = binaryTree[mid].Value;
+                result = sortedRecords[mid].Value;
                 left = mid + 1;
             }
             else
