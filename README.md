@@ -122,9 +122,9 @@ Implement:
 ## Progress Tracker
 
 | # | Task | Status |
-|---|------|--------|
+|---|------|-------|
 | 1 | Time-Based Key-Value Store | ✅ Done |
-| 2 | Median from Data Stream | ⬜ Todo |
+| 2 | Median from Data Stream | ✅ Todo |
 | 3 | Sliding Window Maximum | ⬜ Todo |
 | 4 | Kth Largest Element in Stream | ⬜ Todo |
 | 5 | LFU Cache | ⬜ Todo |
