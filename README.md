@@ -125,7 +125,7 @@ Implement:
 |---|------|--------|
 | 1 | Time-Based Key-Value Store | ✅ Done |
 | 2 | Median from Data Stream | ✅ Done |
-| 3 | Sliding Window Maximum | ⬜ Todo |
+| 3 | Sliding Window Maximum | ✅ Done |
 | 4 | Kth Largest Element in Stream | ⬜ Todo |
 | 5 | LFU Cache | ⬜ Todo |
 | 6 | All O(1) Data Structure | ⬜ Todo |

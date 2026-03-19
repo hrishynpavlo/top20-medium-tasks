@@ -1,6 +1,5 @@
 ﻿namespace TaskRunner;
 
-// TODO: review test cases
 public class DataStreamMedian
 {
     private readonly PriorityQueue<int, int> _minHeap = new();
@@ -10,7 +9,7 @@ public class DataStreamMedian
     {
         if (_maxHeap.Count == 0 || num <= _maxHeap.Peek())
         {
-            _maxHeap.Enqueue(num, num);
+            _maxHeap.Enqueue(num, -1 * num);
         }
         else
         {
@@ -25,7 +24,7 @@ public class DataStreamMedian
         else  if (_minHeap.Count > _maxHeap.Count + 1)
         {
             var em = _minHeap.Dequeue();
-            _maxHeap.Enqueue(em, em);
+            _maxHeap.Enqueue(em, -1 * em);
         }
     }
 
