@@ -10,7 +10,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 2 | [Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✅ Done |
 | 3 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | ✅ Done |
 | 4 | [Kth Largest Element in Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | ✅ Done |
-| 5 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | ⬜ Todo |
+| 5 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | ✅ Done |
 | 6 | [All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | Hard | ⬜ Todo |
 | 7 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ⬜ Todo |
 | 8 | [Longest Substring with K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | ⬜ Todo |
