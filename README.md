@@ -13,7 +13,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 5 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | ✅ Done |
 | 6 | [All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | Hard | ✅ Done |
 | 7 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ✅ Done |
-| 8 | [Longest Substring with K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | ⬜ Todo |
+| 8 | [Longest Substring with K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | ✅ Done |
 | 9 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ⬜ Todo |
 | 10 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | ⬜ Todo |
 | 11 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ⬜ Todo |
