@@ -12,7 +12,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 4 | [Kth Largest Element in Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | ✅ Done |
 | 5 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | ✅ Done |
 | 6 | [All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | Hard | ✅ Done |
-| 7 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ⬜ Todo |
+| 7 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ✅ Done |
 | 8 | [Longest Substring with K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | ⬜ Todo |
 | 9 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ⬜ Todo |
 | 10 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | ⬜ Todo |
