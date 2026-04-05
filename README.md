@@ -15,7 +15,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 7 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ✅ Done |
 | 8 | [Longest Substring with K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | ✅ Done |
 | 9 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ✅ Done |
-| 10 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | ⬜ Todo |
+| 10 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | ✅ Done |
 | 11 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium | ⬜ Todo |
 | 12 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | ⬜ Todo |
 | 13 | [Serialize / Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | ⬜ Todo |
