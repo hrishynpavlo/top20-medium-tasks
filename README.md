@@ -21,7 +21,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 13 | [Serialize / Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | ⬜ Todo |
 | 14 | [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | ⬜ Todo |
 | 15 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | ✅ Done |
-| 16 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | ⬜ Todo |
+| 16 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | ✅ Done |
 | 17 | Design Rate Limiter | Medium | ✅ Done |
 | 18 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | Medium | ⬜ Todo |
 | 19 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | Hard | ⬜ Todo |
