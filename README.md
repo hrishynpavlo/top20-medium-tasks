@@ -23,7 +23,7 @@ A curated list of 20 coding challenges commonly encountered in FAANG-level backe
 | 15 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | ✅ Done |
 | 16 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | ✅ Done |
 | 17 | Design Rate Limiter | Medium | ✅ Done |
-| 18 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | Medium | ⬜ Todo |
+| 18 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | Medium | ✅ Done |
 | 19 | [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | Hard | ⬜ Todo |
 | 20 | [Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | Hard | ⬜ Todo |
 | 21 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | ✅ Done |
